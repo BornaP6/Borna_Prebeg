@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color:black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: pink;
+	padding: 20px;
+}
+.paragraf_2 {color: gold; background-color:rgba(37,41,114,0.8)}
+.novi_blok {
+	background-color:rgba(236,135,247,0.88);
+	padding: 20px;
+	margin: 20px;
+	width: 50%;
+	height: 200px;
+	
+}
+
+@font-face{
+	font-family:BornaPrebeg;
+	src: url("BornaPrebeg.ttf");
+}
+
+h1 {
+	
+	font-family:BornaPrebeg;
+	color: #561A4F;
+	font-size: 50px;
+
+	
+}
+
+h2 {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: #17135B;
+	font-size: 30px
+}
+
+h3 {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #17135B;
+	
+}
+
+span {color: rgb(255, 0, 0);}
+.pozadina{
+	background-image: url("multimedija/back.jpg");
+}
+.drugapozadina {
+	background-color: darkslateblue;
+}
+a:link {
+	color:black;
+	background-color: pink;
+	padding: 20px;
+	line-height: 40px;
+	text-decoration: none; 
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	display: inline;
+	
+	
+	
+}
+a:hover{
+	background-color: darkgray;
+}
+img {
+	height: 200px;
+}
